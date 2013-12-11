@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfchat", "sfchat.vcxproj", "{AAD319CF-BD9A-4744-A501-9ABA9C67A788}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sfchatConsoleServer", "..\sfchatConsoleServer\sfchatConsoleServer.vcxproj", "{3F36F386-BEC9-4CE2-ABAB-D253E6C6C60D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAD319CF-BD9A-4744-A501-9ABA9C67A788}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AAD319CF-BD9A-4744-A501-9ABA9C67A788}.Debug|Win32.Build.0 = Debug|Win32
+		{AAD319CF-BD9A-4744-A501-9ABA9C67A788}.Release|Win32.ActiveCfg = Release|Win32
+		{AAD319CF-BD9A-4744-A501-9ABA9C67A788}.Release|Win32.Build.0 = Release|Win32
+		{3F36F386-BEC9-4CE2-ABAB-D253E6C6C60D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F36F386-BEC9-4CE2-ABAB-D253E6C6C60D}.Debug|Win32.Build.0 = Debug|Win32
+		{3F36F386-BEC9-4CE2-ABAB-D253E6C6C60D}.Release|Win32.ActiveCfg = Release|Win32
+		{3F36F386-BEC9-4CE2-ABAB-D253E6C6C60D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
