@@ -29,9 +29,7 @@ About:
 sfchat is a server / client based chat system using the TCP protocol. It is intended as an easy to include
 class for use in sfml based games, but should work in any project as long as the class's sfml dependencies
 are included. sfchat is written in C++ and tested to compile on windows and mint flavoured linux(gcc).
-NOTE: although sfchat isn't specifically targeted at C++11 it does require some of the newer stl functions
-such as as std::string::pop_back() to be available. The latest version of GCC (4.7) has been tested to work,
-as has Visual Studio 10.
+NOTE: sfchat uses some C++11 features. GCC (4.7 and above) has been tested to work, as has Visual Studio 10.
 
 
 Features:
@@ -84,33 +82,9 @@ library as some people prefer to use libs like irrKlang, portaudio or others.)
 
 To configure sfchat modify the values of the const variables at the top of both sfchat.h and sfchat .cpp
 
-for full documentation visit the google code page https://code.google.com/p/sfchat/w/list
 
 
-History:
---------
-sfchat 0.3
- - Fixed const correctness of serveral funtions, parameters, return types
- - Fixed type specifiers for some configuration variables
 
-
-sfchat 0.2
-
- - Added colour property to text so lines can optionally be drawn with custom colours
- - Fixed a memory leak by replacing raw pointers with smart pointers
-
-sfchat 0.1 - Initial Release. Supports:
-
- - Server and Client side text file logging with optional timestamp
- - IRC Style commands:
-   - /nick
-   - /me
-   - /connect
-   - /disconnect
-   - /team
-   - /kick
-   - /play
- - input / output via console to create UI-less server or client
 
 
 
