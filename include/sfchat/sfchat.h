@@ -47,6 +47,8 @@
 //needed for text logging
 #include <fstream>
 
+#include <memory>
+
 namespace sfchat
 {	
 	//////////////////////////////////////////////////////////////////////

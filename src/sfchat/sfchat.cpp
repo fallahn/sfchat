@@ -533,9 +533,7 @@ std::string Chat::m_ParseCommand(const std::string& str)
 
 void Chat::m_RandName(std::string& name)
 {
-	char buffer[5];
-	sprintf(buffer, "%i", rand() % 9999);
-	name += buffer;
+	name += std::to_string(rand() % 9999);
 }
 
 void Chat::m_ProcessInput(void)
